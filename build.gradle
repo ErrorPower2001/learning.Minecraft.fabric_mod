@@ -1,8 +1,11 @@
+// gradle 插件
 plugins {
+	// fabric 的构建系统 fabric loom
 	id 'fabric-loom' version '1.3-SNAPSHOT'
 	id 'maven-publish'
 }
 
+// mod_version 和 macen_group 变量从 gradle.properties 读取
 version = project.mod_version
 group = project.maven_group
 
@@ -10,6 +13,7 @@ base {
 	archivesName = project.archives_base_name
 }
 
+// 储存库
 repositories {
 	// Add repositories to retrieve artifacts from in here.
 	// You should only use this when depending on other mods because
@@ -18,6 +22,7 @@ repositories {
 	// for more information about repositories.
 }
 
+// fabric loom 构建系统设置
 loom {
     splitEnvironmentSourceSets()
 
@@ -30,6 +35,7 @@ loom {
 
 }
 
+// 依赖
 dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
@@ -57,6 +63,7 @@ tasks.withType(JavaCompile).configureEach {
 	it.options.release = 17
 }
 
+// java 版本
 java {
 	// Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
 	// if it is present.
