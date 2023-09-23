@@ -1,0 +1,29 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result":
+	{
+		"item": "minecraft:villager_spawn_egg",
+		"count": 1
+	},
+	"pattern":
+	[
+		"B",
+		"S",
+		"L"
+	],
+	"key":
+	{
+		"B":
+		{
+			"item": "minecraft:bell"
+		},
+		"S":
+		{
+			"item": "minecraft:armor_stand"
+		},
+		"L":
+		{
+			"item": "minecraft:emerald_block"
+		}
+	}
+}

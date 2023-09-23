@@ -1,0 +1,16 @@
+{
+	"//Description": "「机械动力大齿轮」通过「切石机」合成「机械动力小齿轮」",
+	
+	"//配方类型": "切石机",
+	"type": "stonecutting",
+
+	"//原料": "机械动力大齿轮",
+	"ingredient":
+	{
+		"item": "create:large_cogwheel"
+	},
+
+	"//输出": "机械动力小齿轮",
+	"result": "create:cogwheel",
+	"count": 1
+}

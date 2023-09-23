@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"result":
+	{
+		"item": "minecraft:barrel",
+		"count": 1
+	},
+	"pattern":
+	[
+		"SSS",
+		"S S",
+		"SSS"
+	],
+	"key":
+	{
+		"S":
+		{
+			"tag": "minecraft:wooden_slabs"
+		}
+	}
+}

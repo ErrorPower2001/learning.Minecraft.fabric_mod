@@ -1,0 +1,16 @@
+{
+	"//Description": "「机械动力小齿轮」通过「切石机」合成「机械动力传动杆」",
+
+	"//配方类型": "切石机",
+	"type": "stonecutting",
+
+	"//原料": "机械动力小齿轮",
+	"ingredient":
+	{
+		"item": "create:cogwheel"
+	},
+
+	"//输出": "机械动力传动杆",
+	"result": "create:shaft",
+	"count": 1
+}
