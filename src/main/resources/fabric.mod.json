@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "fabric_learn",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "fabric-mod.learn",
+	"description": "A project for my fabric mod learning",
 	"authors": [
-		"Me!"
+		"ErrorPower: ErrorPower2001@outlook.com"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,6 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
+			"pers.errorpower.Initializer",
 			"com.example.ExampleMod"
 		],
 		"client": [
