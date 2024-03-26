@@ -18,7 +18,7 @@ import net.minecraft.util.Identifier;
 // Mod 入口 Initializer，
 // 必须要实现 ModInitializer、ClientInitializer 和 ServerInitializer 这三个接口中的一个
 // 并且需要将该类写入 fabric.mod.json: entrypoints 的 main、client、server
-public class Initializer__tutorial_add_item implements ModInitializer {
+public class TutorialAddItem implements ModInitializer {
     // 新物品的实例
     public static final Item CUSTOM_ITEM = new Item(new FabricItemSettings());
 
